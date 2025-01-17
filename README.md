@@ -1,5 +1,5 @@
 # linux_tips
-some tips on using linux
+## some tips on using linux
 
 To list all packages intentionally installed (not as dependencies) by apt commands, run the following :
 ```
@@ -9,13 +9,13 @@ To list all packages intentionally installed (not as dependencies) by apt comman
   egrep '^Commandline:'
 ```
 
-DVDs erzeugen mit devede: https://www.linux-community.de/ausgaben/linuxuser/2012/05/dvds-erzeugen-mit-devede/
+## DVDs erzeugen mit devede: https://www.linux-community.de/ausgaben/linuxuser/2012/05/dvds-erzeugen-mit-devede/
 
-Autostart scripts under bodhi linux:
+## Autostart scripts under bodhi linux:
 
 For a script that starts with moksha, there's ~/.e/e/applications/startup/startupcommands and you can put anything you want in there (create it if it doesnt exist).
 
-Bluetooth Gerät verbinden:
+## Bluetooth Gerät verbinden:
 ```
 You can try running bluetoothctl from the command line, make sure your device is on / ready to be discovered:
 
