@@ -23,6 +23,8 @@ https://wiki.ubuntuusers.de/CDs_rippen/
 
 For a script that starts with moksha, there's ~/.e/e/applications/startup/startupcommands and you can put anything you want in there (create it if it doesnt exist).
 
+## Mit IPhone verbinden: https://kmj.at/2018-05-12-Mit-Linux-IPhone-sichern-und-auf-Daten-zugreifen/
+
 
 ## Bluetooth Gerät verbinden:
 ```
