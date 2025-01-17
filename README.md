@@ -25,6 +25,23 @@ For a script that starts with moksha, there's ~/.e/e/applications/startup/startu
 
 ## Mit IPhone verbinden: https://kmj.at/2018-05-12-Mit-Linux-IPhone-sichern-und-auf-Daten-zugreifen/
 
+Im Terminal: apt-get install libimobiledevice6 libimobiledevice-utils libusbmuxd4 ifuse gvfs-fuse
+
+IPhone mit USB Kabel anschliessen. IPhone entsperren.
+
+Im Terminal: idevicepair pair
+
+Computer vertrauen und Pin am IPhone eingeben.
+
+Im Terminal: mkdir $HOME/iphone - nur 1x nötig = Mountpoint anlegen.
+
+Im Terminal: ifuse $HOME/iphone - mounten
+
+Im Terminal: fusermount -u $HOME/iphone - unmounten
+
+Bei mir reichte es dann einfach im Filebrowser auf das angezeigte Iphone/Dokumente zu klicken. 
+So kann man z.B voher vlc auf dem IPhone installieren und danach unter Dokumente VLC dann dateien aufspielen.
+
 
 ## Bluetooth Gerät verbinden:
 ```
